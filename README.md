@@ -19,3 +19,6 @@ doge-getsys.exe D:\target.exe
 run cmd.exe /c D:\target.exe in system privilege
 
 ```
+
+### Ref
+https://github.com/py7hagoras/GetSystem
