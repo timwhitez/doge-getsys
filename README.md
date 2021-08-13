@@ -4,6 +4,9 @@ An easy way to getsystem by golang.
 # getsystem
 From administrator to System
 
+![img](https://user-images.githubusercontent.com/36320909/129322032-ffad661d-01ae-4e97-88ba-fc4c79097932.png)
+
+
 ## usage
 ```
 doge-getsys.exe
