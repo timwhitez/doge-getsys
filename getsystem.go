@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/D00MFist/Go4aRun/pkg/sliversyscalls/syscalls"
+	"github.com/bishopfox/sliver/implant/sliver/syscalls"
 	wins "github.com/cloudfoundry/gosigar/sys/windows"
 	"golang.org/x/sys/windows"
 	"log"
